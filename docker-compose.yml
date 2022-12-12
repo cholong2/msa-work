@@ -2,7 +2,7 @@ version: "1.0"
 services:
   servicea:
     build: ./servicea
-    image: artchoi0g/servicea:latest
+    image: qkrchfhd22/servicea:latest
     container_name: servicea
     ports:
       - 8080:8080
@@ -10,7 +10,7 @@ services:
 
   serviceb:
     build: ./serviceb
-    image: artchoi0g/serviceb:latest
+    image: qkrchfhd22/serviceb:latest
     container_name: serviceb
     ports:
       - 8081:8081
